@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>generic Blog</title>
+  <!-- Box-icon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="fortran00.css">
+</head>
+
+<body>
+  <header>
+    <div class="nav container">
+      <a href="/index.html" class="logo">generic <span>Blog</span></a>
+      <a href="#" class="login">CODER</a>
+    </div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-text container">
+      <h2 class="home-title">Writing Good Git Commits:</h2>
+      <span class="home-subtitle">A Guide to Effective Version Control</span>
+    </div>
+  </section>
+
+  <section class="about container" id="about">
+    <div class="container">
+      <h1>Este es un titulo</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Molestias autem suscipit vitae officiis deserunt consequuntur 
+        qui, in nobis, fuga maiores inventore! Recusandae ut esse quae dicta saepe 
+        consectetur alias voluptas.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="sec aboutus">
+        <h2>About Us</h2>
+        <p>
+          I'm an advanced physics student with a passion for data analysis and web programming. 
+          With a strong foundation in physics and a keen interest in technology, I've 
+          combined my skills to explore the world of data and web development.
+        </p>
+        <ul class="sci">
+          <li><a href="https://github.com/FernandoArroliga" target="_blank"><i class="bx bxl-github"></i></a></li>
+          <li><a href="https://www.instagram.com/devstoriess/#" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/fernando-arroliga-460073284" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
+        </ul>
+      </div>
+      <div class="sec quicklinks">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+      <div class="sec contactBx">
+        <h2>Contact Info</h2>
+        <ul class="info">
+          <li>
+            <span><i class='bx bxs-map'></i></span>
+            <span>San José <br> Costa Rica</span>
+          </li>
+          <li>
+            <span><i class='bx bx-envelope'></i></span>
+            <p><a href="#" class="email">FernandoArroliga@hotmail.com</a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+        // nav background
+    let header = document.querySelector("header");
+
+    window.addEventListener("scroll", () => {
+        header.classList.toggle("shadow", window.scrollY > 0)
+    })
+  </script>
+</body>
+
+</html>
